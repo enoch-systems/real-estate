@@ -88,7 +88,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deployment
 
-This project can be deployed on Vercel (automatic deployment from GitHub).
+Live Demo: [https://rexgold.vercel.app](https://rexgold.vercel.app)
+
+This project is deployed on Vercel (automatic deployment from GitHub).
 
 ## Contact
 
