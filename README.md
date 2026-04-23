@@ -1,4 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RexGold Listings - Premium Real Estate Platform
+
+A modern, responsive real estate property listing application built with Next.js 16 and React 19, featuring a premium property catalog with category filtering and responsive design.
+
+## Project Overview
+
+RexGold Listings is a fully functional real estate platform designed for showcasing premium properties including houses, villas, apartments, bungalows, and farmhouses. It features dynamic property categories, horizontal scrolling listings, and a responsive design optimized for all devices with Naira currency support.
+
+## Features
+
+### Core Functionality
+- Dynamic property catalog with category filtering (House, Villa, Apartment, Bungalow, Farmhouse)
+- Horizontal scrolling recommended property listings
+- Grid-based nearby property listings with responsive layouts
+- Mobile-responsive navigation with search functionality
+- Property cards with images, locations, and pricing
+- Notification system with badge indicators
+- Logo and branding with gradient text effects
+
+### Technical Highlights
+- React state management with useState hooks
+- TypeScript strict mode for type safety
+- Tailwind CSS v4 for utility-first styling
+- Server and client component separation with Next.js App Router
+- Optimized performance with automatic code splitting
+- SEO-friendly structure with proper metadata
+- Responsive grid layouts (mobile, tablet, desktop)
+- Custom scrollbar hiding for horizontal scrolling
+
+## Tech Stack
+
+### Frontend
+- Next.js 16.2.4
+- React 19.2.4
+- TypeScript 5
+
+### Styling
+- Tailwind CSS v4
+- PostCSS
+- React Icons
+
+### Tools
+- ESLint
+- Git
+- Node.js
+
+## Project Structure
+
+```bash
+realtor/
+├── public/
+│   ├── favicon.ico
+│   ├── favicon.png
+│   └── logo.png
+├── src/
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── Header.tsx
+│   │   │   ├── PropertyCategories.tsx
+│   │   │   ├── PropertyCard.tsx
+│   │   │   ├── RecommendedProperties.tsx
+│   │   │   └── NearbyProperties.tsx
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+├── package.json
+├── tsconfig.json
+├── next.config.ts
+├── tailwind.config.ts
+└── README.md
+```
 
 ## Getting Started
 
@@ -16,21 +86,10 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project can be deployed on Vercel (automatic deployment from GitHub).
 
-## Learn More
+## Contact
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Location: Nigeria
